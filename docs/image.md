@@ -9,7 +9,7 @@ See [`drduh macOS Security and Privacy Guide`](https://github.com/drduh/macOS-Se
 1. On Mac, hold `option` down on restart, then choose the USB Recovery partition.
 1. Use Disk Utility to restore USB Macintosh HD back to Mac hard drive Macintosh HD.
 1. Restart into Mac, create temp account, don't agree to location, siri, or diagnostics
-1. Once through Mac setup flow and on desktop, logout of temp account, login to pre-made admin account, and delete temp account
+1. Once through Mac setup flow and on desktop, logout of temp account, login to pre-made admin account, and delete temp account. Continue setup and install with admin account, use other for every day use.
 
 Setup
 ---
@@ -66,4 +66,8 @@ No More Phone Home
 
 Homebrew
 ---
-...
+1. Install Command Line Tools, simply type `git` to prompt or use `xcode-select --install`
+1. Use [`install.sh`](../install.sh) script to install
+  - [`oh-my-zsh`](http://ohmyz.sh/) as default shell
+  - [Homebrew](https://brew.sh/) into `~/homebrew` folder to maintain security of `/usr/local` [(more)](https://github.com/Homebrew/brew/blob/master/docs/Installation.md#installation)
+1.
