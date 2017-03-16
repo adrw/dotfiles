@@ -67,7 +67,24 @@ No More Phone Home
 Homebrew
 ---
 1. Install Command Line Tools, simply type `git` to prompt or use `xcode-select --install`
-1. Use [`install.sh`](../install.sh) script to install
+1. Use [`main.sh`](../main.sh) script to install
   - [`oh-my-zsh`](http://ohmyz.sh/) as default shell
+  - [`mac-defaults.sh`](./scripts/mac-defaults.sh) to change Mac settings (show all files, increase keyboard repeate rate...)
+  - [`copy-dotfiles.sh`](./scripts/copy-dotfiles.sh) to move `.vimrc` 
   - [Homebrew](https://brew.sh/) into `~/homebrew` folder to maintain security of `/usr/local` [(more)](https://github.com/Homebrew/brew/blob/master/docs/Installation.md#installation)
-1.
+  - [`install.sh`](./scripts/install.sh) install dev tools, apps through brew cask, and apps through mac app store
+
+Generate SSH Keys
+---
+1. `ssh-keygen -t rsa -b 4096 -C "me@andrewparadi.com"`
+1. `pbcopy < ~/.ssh/id_rsa.pub` save to clipboard and then to GitHub account
+
+DNS
+---
+1. Append consolidated host file for broad low level blocking of ad and malware networks
+
+
+
+
+
+
